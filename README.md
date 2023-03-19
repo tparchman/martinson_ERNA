@@ -40,7 +40,6 @@ Decompress fastq file:
 
     $ gunzip *fastq
 
-# DONE TO HERE 
 
 Number of reads **before** cleaning:
 
@@ -109,7 +108,6 @@ Cleaning up the RALU_round2 directory:
     $ rm parsereport_UNM_ERNA.clean.fastq
 
 
-
 ####################################################################################
 ## 3. splitting fastqs
 ####################################################################################
@@ -124,7 +122,8 @@ Split fastqs by individual
 
     $ nohup perl splitFastq_universal_regex.pl UNM_ERNA_ids_noheader.txt parsed_UNM_ERNA.clean.fastq &>/dev/null &
 
-    
+    # DONE TO HERE 
+
 ************************************
 
 Zip the parsed*fastq files for now, but delete once patterns and qc are verified:
